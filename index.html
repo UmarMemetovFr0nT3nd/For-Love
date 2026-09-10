@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>I love you</title>
+  <link rel="stylesheet" href="style.css">
+
+  <meta property="og:title" content="У меня для тебя кое-что есть... ❤️">
+  <meta property="og:description" content="Нажми на ссылку, чтобы посмотреть!">
+  <meta property="og:image" content="https://umarmemetovfr0nt3nd.github.io/For-Love/img/love2.gif">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://umarmemetovfr0nt3nd.github.io/For-Love/">
+</head>
+</head>
+<body>
+  <div class="background">
+    <div class="body">
+      <div class="content">
+        <div class="step active" id="step-0">
+          <h2 class="step__title">Любимая, я кое-что <br>для тебя сделал</h2>
+          <p class="step__text">Ты готова?</p>
+          <button class="buttons__item">Да</button>
+        </div>
+        <div class="step" id="step-1">
+          <img src="/img/love2.gif.gif" alt="" width="180" height="130">
+          <h2  class="step__title">Мой подарок - приглашение на свидание. Ты пойдешь со мной?</h2>
+          <div class="step__buttons buttons">
+            <button class="buttons__item">Да</button>
+            <button class="buttons__item" id="no-button">Нет</button>
+            <img src="/img/emoji.png" class="my-img active">
+          </div>
+        </div>
+        <div class="step" id="step-2">
+          <img src="/img/love.gif.gif" alt="" width="146" height="150">
+          <h2 class="step__title">Ты согласилась?</h2>
+          <p class="step__text">Я, действительно, очень удивлён</p>
+          <button class="buttons__item">Ну конечно!!!</button>
+        </div>
+        <div class="step" id="step-3">
+          <img src="/img/love4.gif.gif" alt="" width="180" height="130">
+          <h2 class="step__title">Выбери дату:</h2>
+          <div class="step__buttons buttons">
+            <button class="buttons__item date-preset-btn" data-date="2026-09-15">15.09.2026</button>
+            <button class="buttons__item date-preset-btn" data-date="2026-09-15">15 сентября</button>
+            <button class="buttons__item date-preset-btn" data-date="2026-09-15">Во вторник</button>
+            <button class="buttons__item">Другая дата</button>
+          </div>
+        </div>
+        <div class="step" id="step-4">
+          <img src="/img/love5.gif.gif" alt="" width="180" height="142">
+          <h2 class="step__title" id="step-new-title">Всё-таки в другой день?</h2>
+          <form action="" class="step__form buttons">
+            <div>
+              <label for="date">Дата:</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <div>
+              <label for="time">Время:</label>
+              <input type="time" id="time" name="time" required>
+            </div>
+            <button type="submit" class="buttons__item" id="submit-button">Подходит</button>
+          </form>
+        </div>
+        <div class="step" id="step-5">
+          <h2 class="step__title">Что будем есть?</h2>
+          <div class="step__buttons buttons food">
+            <button class="buttons__item food__btn"><span id="food">🍕</span><span id="food-name">Пицца</span></button>
+            <button class="buttons__item food__btn"><span id="food">🍔</span><span id="food-name">Бургер</span></button>
+            <button class="buttons__item food__btn"><span id="food">🌯</span><span id="food-name">Дюрюм</span></button>
+            <button class="buttons__item food__btn"><span id="food">🍚</span><span id="food-name">Суши</span></button>
+            <button class="buttons__item food__btn"><span id="food">🥙</span><span id="food-name">Донер</span></button>
+            <button class="buttons__item food__btn"><span id="food">🍰</span><span id="food-name">Десертики</span></button>
+          </div>
+        </div>
+        <div class="step" id="step-6">
+          <div id="final-message-emoji"></div>
+          <h2 class="step__title">Договорились!</h2>
+          <p class="step__text" id="final-message"></p>
+          <button class="buttons__item">Бонус</button>
+        </div>
+        <div class="step" id="step-7">
+          <h2 class="step__title">Спасибо тебе за это</h2>
+          <video src="/img/IMG_5728.MP4" controls poster="/img/love3.gif.gif"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
